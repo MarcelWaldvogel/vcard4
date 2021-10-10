@@ -8,6 +8,13 @@
     "import": "./index.js",
     "require": "./index.cjs"
   },
+  "types": "./index.d.ts",
+  "files": [
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.ts",
+    "**/*.md"
+  ],
   "scripts": {
     "test": "mocha"
   },
